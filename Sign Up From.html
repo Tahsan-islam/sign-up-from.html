@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Sign Up From
+        </title>
+    </head>
+    <body>
+        <h1 style="text-align:center;"><marquee>Sign Up Form</marquee></h1>
+        <strong><hr></strong>
+        <br><br>
+        <label for="name">Name:</label>
+        <input type="text"; id="name" name="username" placeholder="User Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email"; id="email" name="useremail" placeholder="E-mail" required>
+        <br>
+        <label for="phn">Phone:</label>
+        <select>
+            <option value="+880"> +880 </option>
+            <option value="+990"> +990 </option>
+            <option value="+110"> +110 </option>
+            <option value="+001"> +001 </option>
+        </select>
+        <input type="phone" id="phn" placeholder="User Numebr" name="unumber" required>
+        <br>
+        <lable>Country Name:</lable>
+        <input list="cun">
+        <datalist id="cun">
+            <option value="Bangladesh"> Bangladesh</option>
+            <option value="India">India</option>
+            <option value="Austlia">Austlia</option>
+            <option value="South Africa">South Africa</option>
+            <option value="England">England</option>
+            <option value="Srilanka"> Srilanka</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Newzaland">Newzaland</option>
+        </datalist><br>
+        Gender:
+        <input type="radio" id="gnd" name="gender">
+        <label for="gnd">Male</label>
+        <input type="radio" id="gnd1" name="gender">
+        <lable for="gnd1">Female</lable>
+        <input type="radio" id="gnd2" name="gender">
+        <lable for="gnd2">Others</lable>
+        <br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="dob" required><br>
+        <label for="tm">Time:</label>
+        <input type="time" id="tm" name="time"><br>
+        select red color...<br>
+        <label for="clr">Color</label>
+        <input type="color" id="clr" name="color"><br>
+        <label for="file">Choose Your Photo</label>
+        <input type="file" id="file" name="file" required><br>
+
+        <input type="checkbox" id="vehicle1" name="vec">
+        <lable for="vehicle1"> I Have a Bike</lable> 
+        <input type="checkbox" id="vehicle2" name="vec">
+        <lable for="vehicle2"> I Have a Bycycle</lable><br>
+        <h3>Your messege:</h3><br>
+        <textarea name="comment" cols="100" rows="20">Comment Here.......</textarea><br>
+        <input type="submit" value="Sent">
+        <input type="reset" value="Reset">
+
+        
+    </body>
+</html>
